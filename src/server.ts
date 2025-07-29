@@ -51,7 +51,7 @@ const createConcatString = (alphabets: string[]): string => {
   
   let result = "";
   for (let i = 0; i < allChars.length; i++) {
-    if (i % 2 === 0) {
+    if (i % 2 === 1) {
       result += allChars[i].toLowerCase();
     } else {
       result += allChars[i].toUpperCase();
